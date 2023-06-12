@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ActivityExample</string>
+    <string name="txt_chaomungban">Chào mừng bạn,</string>
+    <string name="txt_dangkytaikhoan">Đăng ký tài khoản</string>
+    <string name="txt_nhapusername">Nhập username</string>
+    <string name="txt_nhappassword">Nhập password</string>
+    <string name="txt_nhaplaipassword">Nhập lai password</string>
+    <string name="txt_dangnhaptieptuc">Vui lòng đăng nhập</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="btnthemnhanvien">THÊM PHÒNG NHÂN VIÊN MỚI</string>
+</resources>

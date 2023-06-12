@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="20dp"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chào mừng bạn,"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#2598F2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí tài khoản"
+        android:textSize="28dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edt_userdk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#000"
+        android:background="@drawable/br_edt"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="nhập usernames"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/edt_passworđk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#000"
+        android:background="@drawable/br_edt"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="nhập password"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edt_nlpassworđk"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColorHint="#000"
+        android:background="@drawable/br_edt"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+    android:hint="nhập lại password"
+    android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Register"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/br_btn"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#1192CC"
+        android:textSize="22dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Đăng ký"/>
+    <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/btn_TroVe"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/br_btn"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#565B73"
+        android:textSize="22dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Trở Về"/>
+</LinearLayout>

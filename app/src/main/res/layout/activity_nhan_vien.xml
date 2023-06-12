@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".NhanVien">
+    <androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0353F4"
+    app:title="Nhân viên"
+    app:titleTextColor="#fff"
+    android:id="@+id/toolbar_nhanvien"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="#000000"
+        android:id="@+id/edtTimnv" />
+    <Button
+        android:id="@+id/btn_themnhanvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnthemnhanvien"
+        android:textSize="22dp"
+        android:backgroundTint="#2196F3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <ListView
+        android:id="@+id/lv_nhanvien"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
